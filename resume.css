@@ -6,7 +6,7 @@
 
 html{
 font-size: 70%;
-background-image: ;
+
 }
 
 body {
@@ -38,7 +38,7 @@ font-size: 1.7rem
 }
 
 hr {
-
+  border: 1;
 }
 
 p {
@@ -54,9 +54,7 @@ font-size: 1.5rem;
 text-decoration: none;
 }
 
-a:hover{
-color: #414d5c;
-}
+
 .top-container {
 background-color: #c9c4e3;
 position: relative;
@@ -69,54 +67,14 @@ width: 50%;
 text-align: left;
 }
 
-.skill-project {
-margin: 1rem auto 1rem auto;
-width: 50%;
-text-align: center;
-}
-
 .contact-me{
 padding-right: 1rem;
 padding-left: 1rem;
 }
 
-.mountain{
-width: 52.6%;
-}
-
-.salesmarketing_img {
-width: 25%;
-float: left;
-margin-right: 3rem;
-}
-
-.webdevelopment_img {
-width: 25%;
-float: right;
-margin-left: 3rem;
-}
-
-.python_img {
-width: 25%;
-float: left;
-margin-right: 3rem;
-}
 
 .profile_img{
 width: 25%
-}
-
-
-.App_img{
-width: 25%;
-float: right;
-margin-left: 3rem;
-}
-
-.mysql_img{
-width: 25%;
-float: left;
-margin-right: 3rem;
 }
 
 .pro {
