@@ -1,0 +1,234 @@
+.WebContainer{
+  width:100%;
+  min-width:100rem;
+  height:auto;
+}
+
+html{
+font-size: 70%;
+background-image: ;
+}
+
+body {
+margin: 0;
+text-align:center;
+color: #354a47;
+font-family: 'Comic Sans MS', serif;
+}
+
+h1 {
+margin: 5rem auto 0 auto;
+color: #5f1dca;
+font-size: 8rem;
+font-family: 'Calibri(Body)', cursive;
+}
+
+h2 {
+color: #411eb4;
+font-family: 'Montserrat', sans-serif;
+font-size: 3.59rem;
+font-weight: normal;
+padding-bottom: 1rem;
+}
+
+h3 {
+color: #33ad4e;
+font-family: 'Montserrat', sans-serif;
+font-size: 1.7rem
+}
+
+hr {
+
+}
+
+p {
+line-height: 2;
+font-size: 1.42rem
+}
+
+a {
+color: #e9f1f1;
+font-family: 'Montserrat', sans-serif;
+margin: 1rem 2rem;
+font-size: 1.5rem;
+text-decoration: none;
+}
+
+a:hover{
+color: #414d5c;
+}
+.top-container {
+background-color: #c9c4e3;
+position: relative;
+padding-top: 8.5rem;
+}
+
+.skill-row {
+margin: 5rem auto 5rem auto;
+width: 50%;
+text-align: left;
+}
+
+.skill-project {
+margin: 1rem auto 1rem auto;
+width: 50%;
+text-align: center;
+}
+
+.contact-me{
+padding-right: 1rem;
+padding-left: 1rem;
+}
+
+.mountain{
+width: 52.6%;
+}
+
+.salesmarketing_img {
+width: 25%;
+float: left;
+margin-right: 3rem;
+}
+
+.webdevelopment_img {
+width: 25%;
+float: right;
+margin-left: 3rem;
+}
+
+.python_img {
+width: 25%;
+float: left;
+margin-right: 3rem;
+}
+
+.profile_img{
+width: 25%
+}
+
+
+.App_img{
+width: 25%;
+float: right;
+margin-left: 3rem;
+}
+
+.mysql_img{
+width: 25%;
+float: left;
+margin-right: 3rem;
+}
+
+.pro {
+text-decoration: underline;
+}
+
+.intro {
+width: 30%;
+margin: auto;
+}
+
+.contact-message {
+width: 40%;
+margin: 4rem auto 2rem auto;
+}
+
+.copy-right{
+color: #EAF6F6;
+font-size: 1.15rem;
+padding: 2rem 0;
+}
+.top-cloud {
+position: absolute;
+right: 25rem;
+top: 3rem;
+width: 10%;
+}
+
+.bottom-cloud {
+position: absolute;
+left: 15rem;
+bottom: 20rem;
+width: 10%;
+}
+
+.middle-container {
+margin: 0.1rem;
+}
+
+.mid-middle-container{
+margin: 2.5rem;
+}
+@media(max-width:998px){
+html{
+  font-size: 55%
+}
+p{
+  font-size: 1.5rem
+}
+}
+
+@media(max-width:768px){
+html{
+  font-size: 45%
+}
+
+p{
+  font-size: 1.6rem
+}
+.bottom-cloud{
+  visibility: hidden;
+}
+
+.linkedin-img{
+  width: 5%
+}
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.skill-row {
+  margin: 5rem auto 5rem auto;
+  width: 65%;
+  text-align: left;
+}
+
+.skill-project {
+  margin: 1rem auto 1rem auto;
+  width: 70%;
+  text-align: center;
+}
+
+.contact-message {
+  width: 60%;
+  margin: 4rem auto 2rem auto;
+}
+}
+
+.btn {
+ background: #4239b6;
+ background-image: -webkit-linear-gradient(top, #292d9e, #11999E);
+ background-image: -moz-linear-gradient(top, #6c56d1, #11999E);
+ background-image: -ms-linear-gradient(top, #3432ab, #11999E);
+ background-image: -o-linear-gradient(top, #34299a, #11999E);
+ background-image: -webkit-gradient(to bottom, #21248e, #11999E);
+ -webkit-border-radius: 0.8rem;
+ -moz-border-radius: 0.8rem;
+ border-radius: 0.8rem;
+ color: #FFFFFF;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 1.74rem;
+ font-weight: 100;
+ padding: 1.35rem;
+ -webkit-box-shadow: 0.1rem 0.1rem 2rem 0 #90ecf0;
+ -moz-box-shadow: 0.1rem 0.1rem 2rem 0 #90ecf0;
+ box-shadow: 0.1rem 0.1rem 2rem 0 #90ecf0;
+ text-shadow: 0.1rem 0.1rem 2rem #90ecf0;
+ text-decoration: none;
+ display: inline-block;
+ cursor: pointer;
+ text-align: center;
+}
+
+
