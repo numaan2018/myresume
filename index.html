@@ -1,93 +1,221 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Numaan Sheikh - Salesforce Developer </title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="resume.css">
-  <link rel="icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <title>Resume</title>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="gridresume.css">
 </head>
 
 <body>
-  <div class="top-container">
-    <img class="top-cloud" src="salesforce-logo.png" alt="cloud-img">
-    <h1>Numaan Sheikh.</h1>
-    <h2>SFDC Developer🧑‍💻</h2>
-  </div>
-  <div class="middle-container">
+  <div class="container">
     <div class="profile">
-      <img class="profile_img" src="image.png" alt="numaan-img">
-      <h2>Professional Summary</h2>
-      <p class="intro">I have a Bachelor's degree in Technology and have been working in the field since 2023. I have expertise in Apex, JavaScript, SOQL, HTML & CSS, and Lightning, and have successfully transitioned to a developer position.  I am eager to expand my expertise in Salesforce Lightning Web Components (LWC) and contribute to challenging projects. I am committed to enhancing my skills and making meaningful contributions to the field.</p>
+      <div class="profile_container">
+        <div class="profile_profileImg">
+          <img src="image.png" alt="Numaan Sheikh">
+        </div>
+        <div>
+          <h1 class="profile_name">
+            <span class="profile_name_firstName">Numaan</span>
+            <span class="profile_name_lastName">Sheikh</span>
+          </h1>
+          <p class="profile_title">Software Developer</p>
+          <p class="description profile_description">
+            I have a Bachelor's degree in Technology and have been working in the field since 2023. I have command in Apex, JavaScript, SOQL, HTML & CSS, and Lightning, and have successfully transitioned to a developer position.  I am eager to expand my expertise in Salesforce Lightning Web Components (LWC) and contribute to challenging projects. I am committed to enhancing my skills and making meaningful contributions to the field.
+          </p>
+          <a class="downloadBtn" href="./cv.pdf" download="Resume.pdf">Download Resume</a>
+        </div>
+      </div>
     </div>
-    <h2>Experience</h2>
-      <h3 class="pro">Salesforce Developer at Accenture</h3>
-      <img class="accenture_img" src = "ac.png" alt = "numaan-img">
-      <p class="skill-project">As a Salesforce Developer at Accenture, I am responsible for developing and implementing Salesforce solutions for clients. My key responsibilities include:<br>
-        Collaborating with cross-functional teams to gather requirements, design customizations, and develop solutions that meet client needs.
-        <br>Designing and developing custom Salesforce solutions using Apex, Lightning, Visualforce, and other Salesforce technologies.
-        <br>Sep 2023 - Present
-      
+    <div class="group-1">
+      <div class="skills">
+        <h3 class="title">Expertise</h3>
+        <ul class="skills_list description">
+          <li>Salesforce Development</li>
+          <li>Salesforce Administration</li>
+          <li>HTML/CSS</li>
+          <li>Apex</li>
+          <li>LWC</li>
+        </ul>
+      </div>
+      <!--<div class="ref">
+        <h3 class="title">Reference</h3>
+        <div class="ref_item">
+          <h4 class="ref_name">Rashid Chy</h4>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, neque?</p>
+        </div>
+        <div class="ref_item">
+          <h4 class="ref_name">Ayman Rahman</h4>
+          <p class="description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+        </div>
+      </div>-->
+
+      <div class="edu">
+        <h3 class="title">Education</h3>
+        <div class="edu_item">
+          <p class="item_preTitle">2019-2023</p>
+          <h4 class="item_title">B.Tech in ME</h4>
+          <p class="item_subtitle">
+            LNCT Bhopal
+          </p>
+        </div>
+        <div class="edu_item">
+          <p class="item_preTitle">2017-2019</p>
+          <h4 class="item_title">Higher Secondary</h4>
+          <p class="item_subtitle">
+            Hope Academy
+          </p>
+        </div>
+      </div>
+
+      <div class="certification">
+        <h3 class="title">certification</h3>
+        <div class="certification_item">
+          <p class="item_preTitle">Jul 2023</p>
+          <h4 class="item_title">Salesforce Certified Plarform Developer I</h4>
+          <br>
+          </div>
+          <!--<p class="description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam,
+          </p>-->
+          <div class="certification_item2">
+            <p class="item_preTitle">Jan 2024</p>
+            <h4 class="item_title">Salesforce Certified Administrator</h4>
+            <br>
+        </div>
+        <div class="certification_item3">
+            <p class="item_preTitle">Mar 2024</p>
+            <h4 class="item_title">Google Certified Cloud Digital Leader</h4>
+        </div>
+      </div>
+    </div>
+    <div class="group-2">
+      <div class="exp">
+        <h3 class="title">Experience</h3>
+        <!--<div class="exp_item">
+          <p class="item_preTitle">2019 - present</p>
+          <h4 class="item_title">Rashid Software LTD.</h4>
+          <p class="item_subtitle">Frontend Developer</p>
+          <p class=" description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam,
+          </p>
+        </div>-->
+        <div class="exp_item">
+          <p class="item_preTitle">2023 - present</p>
+          <h4 class="item_title">Accenture Technology</h4>
+          <p class="item_subtitle">Salesforce Developer</p>
+          <p class="description">
+            As a Salesforce Developer at Accenture, I am responsible for developing and implementing Salesforce solutions for clients.
+          </p>
+        </div>
+      </div>
+      <div class="awards">
+        <h3 class="title">Internships</h3>
+        <div class="awards_item">
+          <p class="item_preTitle">May 2023</p>
+          <h4 class="item_title">Smartinternz - Salesforce Developer Virtual Internship</h4>
+        </div>
+        <div class="awards_item">
+          <p class="item_preTitle">Jul 2023</p>
+          <h4 class="item_title">Smartinternz - Salesforce Administrator Virtual Intership</h4>
+        </div>
+      </div>
+
+      <div class="certification">
+        <h3 class="title">Languages</h3>
+        <div class="certification_item">
+          <!--<p class="item_preTitle">Jul 2023</p>-->
+          <h4 class="item_title">English</h4>
+          <p>Full Professional Proficiency</p>
+          <br>
+          </div>
+          <!--<p class="description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam,
+          </p>-->
+          <div class="certification_item2">
+            <!--<p class="item_preTitle">Jan 2024</p>-->
+            <h4 class="item_title">German</h4>
+            <p>Full Working Proficiency</p>
+            <br>
+        </div>
+        <div class="certification_item3">
+            <!--<p class="item_preTitle">Mar 2024</p>-->
+            <h4 class="item_title">Hindi</h4>
+            <p>Native</p>
+        </div>
+      </div>
+    </div>
+
+      <div class="interest">
+        <h3 class="title">Interests</h3>
+        <div class="interest_items">
+          <div class="interest_item">
+            <span>♟️</span>
+            <!--<i data-feather="music"></i>-->
+            <span>Chess</span>
+          </div>
+          <div class="interest_item">
+            <span>📚</span>
+            <!--i data-feather="book"></i>-->
+            <span>Books</span>
+          </div>
+          <div class="interest_item">
+            <span>✈️</span>
+            <!--<i data-feather="map"></i>-->
+            <span>Travel</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
     <hr>
-    <div class="skills">
-      <h2>Skills</h2>
-      <div class="skill-row">
-        <h3>Salesforce Development</h3>
+    <div class="group-3">
+      <div class="contact">
+        <h3 class="title">Contact</h3>
+        <div class="contact_info">
+          <p class="description">
+            Kolkata, West Bengal
+          </p>
+          <p class="description">
+            +91 7828759701
+          </p>
+          <p class="description">
+            numaan2018@gmail.com
+          </p>
+        </div>
       </div>
-      <div class="skill-row">
-        <h3>Salesforce Administration</h3>
+      <div class="social">
+        <h3 class="title">Socials</h3>
+        <div class="social_items">
+          <a href="#" target="_b" class="social_item">
+            <i data-feather="github"></i>
+            <span>/numaan2018</span>
+          </a>
+          <!--<a href="#" target="_blank" class="social_item">
+            <i data-feather="twitter"></i>
+            <span>/numaan5</span>
+          </a>-->
+          <a href="#" target="_blank" class="social_item">
+            <i data-feather="linkedin"></i>
+            <span>https://www.linkedin.com/in/numaansheikh</span>
+          </a>
+        </div>
       </div>
-      <div class="skill-row">
-        <h3>SOQL</h3>
-      </div>
-      <div class="skill-row">
-        <h3>HTML & CSS</h3>
-      </div>
-      <div class="skill-row">
-        <h3>LWC</h3>
-      </div>
-    </div>
-    <hr>
-    <h2>Internships</h2>
-      <h3 class="pro">Smartinternz - Salesforce Developer Virtual Internship</h3>
-      <p class="skill-project">May 2023</p>
-      <h3 class="pro">Smartinternz -  Salesforce Administrator Virtual Intership</h3>
-      <p class="skill-project">July 2023 </p>
-      <h3 class="pro">NIIT Foundation - Netacad Academy (Cisco Internship)</h3>
-      <p class="skill-project">May 2022</p>
-    <div class="mid-middle-container">
-      <h2>Education</h2>
-      <p class="education"><b>Lakshmi Narain College of Technology, Bhopal</b>
-      <p>
-      <p>2019 - 2023</p>
-      <p>
-        B.Tech, CGPA - 8.5
-      </p>
-      
-      <h2>Certifications</h2>
-      <h3 class="pro">Salesforce Certified Platform Developer I</h3>
-      <p class="skill-project">Jul 2023</p>
-      <h3 class="pro">Salesforce Certified Administrator</h3>
-      <p class="skill-project">Jan 2024 </p>
-      <h3 class="pro">Google Certified Cloud Digital Leader</h3>
-      <img class="gcp" src = "https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/97156929" alt = "gcp-img">
-      <p class="skill-project">Mar 2024</p>
-      <h3 class="pro">Cisco Certified Cyberops Associate</h3>
-      <p class="skill-project">May 2022</p>
-      <h2>Languages</h2>
-      <p><b>English</b><br>Full Professional Proficiency</p>
-      <p><b>German(Deutsch)</b><br>Working Proficieny</p>
-      <p><b>Hindi</b><br>Native</p>
-    </div>
-    <div class="contact-me">
-      <h2>Contacts</h2>
-      <a class="btn" href="mailto:numaan2018@gmail.com">Email</a>
-      <a class="btn" href="https://www.linkedin.com/in/numaansheikh">Linkedin</a>
-      <a class="btn" href="tel:+917828759701">Phone</a>
     </div>
   </div>
+  <script>
+    feather.replace()
+  </script>
 </body>
-  
+
 </html>
